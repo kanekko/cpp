@@ -27,8 +27,9 @@ int main()
     float piFloat = 3.1415926535897932384626433;
     double piDouble = 3.1415926535897932384626433;
 
-    // std::cout << piFloat << "\n";
+    std::cout << std::setprecision(50) << piFloat << "\n";
     // std::cout << std::setprecision(50) << piDouble << "\n";
+    std::cout << piDouble << "\n";
     
     // 6. Tipo de dato char
     char letraA = 'a';

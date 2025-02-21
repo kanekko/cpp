@@ -2,14 +2,14 @@
 
 int main()
 {
-    /*
+    
     // int pi = 3.1415;
-    double pi = (int)3.1415;
-    std::cout << pi << std::endl;
+    // double pi = (int)3.1415;
+    // std::cout << pi << std::endl;
 
-    char numero = 100;
-    std::cout << (int)numero << std::endl;
-    */
+    // char numero = 101;
+    // std::cout << (int)numero << std::endl;
+    
 
     int avance = 8;
     int total = 10;

@@ -5,7 +5,9 @@ int main()
     int total = 10;
     // Suma
     // total = total + 1;
-    //total += 1;
+    total++;
+
+    std::cout << total << std::endl;
 
     // total = total + 2;
     //total += 2;
@@ -41,11 +43,11 @@ int main()
     // 1. Parentesis
     // 2. * y /
     // 3. + y -
-    int resultado = 2 + 3 - 1 * 8 / 2;
+    // int resultado = 2 + 3 - 1 * 8 / 2;
     // int resultado = 2 + 4 - ((3 * 8 )/ 2);
     // int resultado = (2 + (4 - (X)));
 
-    std::cout << resultado << std::endl;
+    // std::cout << resultado << std::endl;
 
     // return 0;
 }

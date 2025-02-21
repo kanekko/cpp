@@ -14,17 +14,17 @@ namespace second{
 int main()
 {   
     // 1. No es posible hacer redeclaración:
-    /*
-    int x = 0;
-    int x = 1;
-    */
+    
+    // int x = 0;
+    // int x = 1;
+    
 
     // 4. Podemos mandar a imprimir variables de NS especificos
-    /*
-    int x = 0;
-    std::cout << "x = " << x << "\n";
-    std::cout << "x = " << first::x; // :: es el operador de resolución de ambitos
-    */
+    
+    // int x = 0;
+    // std::cout << "x = " << x << "\n";
+    // std::cout << "x = " << first::x; // :: es el operador de resolución de ambitos
+    
 
     // 5. podemos usar using para invocar el bloque completo en nuestra función
     // using namespace first;
@@ -32,8 +32,8 @@ int main()
     // std::cout << "x = " << second::x;
 
     // 6. podemos invocar namespace nativos de c++
-    // using namespace std;
-    // cout << "x = " << first::x;
+    using namespace std;
+    cout << "x = " << first::x;
 
     // 7. podemos importat bibliotecas especificas
     using std::cout;
