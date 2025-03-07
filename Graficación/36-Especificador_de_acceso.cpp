@@ -8,6 +8,7 @@ class MyClass {
 int main()
 {
     MyClass myObj;
+
     myObj.x = 25; // Permitido (public)
     myObj.y = 50; // No permitido (private)
 

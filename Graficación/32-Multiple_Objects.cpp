@@ -4,12 +4,11 @@ using std::cout;
 using std::string;
 
 // Crea una clase Car con algunos atributos
-class Car
-{
-public:
-    string brand;
-    string model;
-    int year;
+class Car {
+    public:
+        string brand;
+        string model;
+        int year;
 };
 
 int main()

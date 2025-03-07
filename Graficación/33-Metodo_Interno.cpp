@@ -10,8 +10,7 @@ class MyClass {           // La clase
         }
 };
 
-int main()
-{
+int main() {
     MyClass myObj;    // Crear un objeto de MyClass
     myObj.myMethod(); // Llama al método
     

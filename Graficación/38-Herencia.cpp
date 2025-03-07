@@ -36,8 +36,7 @@ int main()
 
 /*
  * 2. Herencia multinivel
- */
-/*
+ 
 // Clase base (padre)
 class MyClass {
     public:
@@ -56,7 +55,9 @@ class MyGrandChild : public MyChild {
 };
 
 int main() {
+
     MyGrandChild myObj;
+
     myObj.myFunction();
 
     return 0;

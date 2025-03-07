@@ -5,7 +5,7 @@ using std::string;
 
 /*
  * 1. 
- 
+*/
 class Base {
     public:
         virtual void foo() = 0;
@@ -15,11 +15,11 @@ class Hija : public Base {
 };
 
 int main() {
-    Hija h;
+    Hija hija;
 
     return 0;
 }
-*/
+
 
 /*
  * 2.
@@ -32,7 +32,7 @@ class Base {
 class Hija : public Base {
     public:
         void foo() override {
-            std::cout << "Estoy en la clase hija";
+            std::cout << "Estoy en la clase hija" << std::endl;
         }
 };
 

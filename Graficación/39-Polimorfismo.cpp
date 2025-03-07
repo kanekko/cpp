@@ -6,8 +6,7 @@ using std::string;
 // Clase base
 class Animal {
     public:
-        void animalSound()
-        {
+        void animalSound() {
             cout << "El animal hace un sonido \n";
         }
 };
@@ -15,8 +14,7 @@ class Animal {
 // Clase derivada
 class Dog : public Animal {
     public:
-        void animalSound()
-        {
+        void animalSound() {
             cout << "El perro dice: guau guau \n";
         }
 };
@@ -24,8 +22,7 @@ class Dog : public Animal {
 // Clase derivada
 class Cat : public Animal {
     public:
-        void animalSound()
-        {
+        void animalSound() {
             cout << "El gato dice: miauu \n";
         }
 };

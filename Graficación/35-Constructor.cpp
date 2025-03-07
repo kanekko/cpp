@@ -8,10 +8,10 @@ using std::string;
  */
 
 class MyClass {       // La clase
-public:              // Especificador de acceso
-    MyClass() {      // Constructor
-        cout << "Hello World!";
-    }
+    public:              // Especificador de acceso
+        MyClass() {      // Constructor
+            cout << "Hello World!";
+        }
 };
 
 // int main()
@@ -34,9 +34,8 @@ class Car {       // La clase
             year = z;
         }
 };
-*/
 
-/*
+
 int main() {
     // Crea objetos Car y llama al constructor con diferentes valores
     Car carObj1("BMW", "X5", 1999);
@@ -61,8 +60,7 @@ class Car {                         // La clase
 };
 
 // Definición del constructor fuera de la clase
-Car::Car(string x, string y, int z)
-{
+Car::Car(string x, string y, int z) {
     brand = x;
     model = y;
     year = z;

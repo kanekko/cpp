@@ -10,13 +10,11 @@ class MyClass {          // La clase
 };
 
 // Definición de método/función fuera de la clase
-void MyClass::myMethod()
-{
+void MyClass::myMethod() {
     cout << "Hello World!" << std::endl;
 }
 
-void MyClass::myMethod2(string name)
-{
+void MyClass::myMethod2(string name) {
     cout << "Hello " << name << std::endl;
 }
 
