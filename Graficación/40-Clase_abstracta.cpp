@@ -3,44 +3,35 @@
 using std::cout;
 using std::string;
 
-/*
- * 1. 
-*/
-class Base {
+class Abstracta {
     public:
-        virtual void foo() = 0;
+        virtual int suma() = 0; // = 0 es la notación que emplea C++ para definir funciones virtuales puras.
 };
 
-class Hija : public Base {
-};
-
-int main() {
-    Hija hija;
-
-    return 0;
-}
-
-
-/*
- * 2.
- */
-class Base {
+class DerivadaA : public Abstracta {
     public:
-        virtual void foo() = 0;
-};
-
-class Hija : public Base {
-    public:
-        void foo() override {
-            std::cout << "Estoy en la clase hija" << std::endl;
+        // una posible implementación de la función suma.
+        int suma() {
+            return 2 + 2;
         }
 };
 
-int main()
-{
-    Hija h;
-    h.foo();
-    // getchar();
+class DerivadaB : public Abstracta {
+    public:
+        // otra implementación de la función suma.
+        int suma() {
+            return 3 + 3;
+        }
+};
+
+int main() {
+    DerivadaA objA;
+    int resultado = objA.suma();
+    cout << "sumaA: " << resultado << std::endl;
+
+    DerivadaB objB;
+    resultado = objB.suma();
+    cout << "sumaB: " << resultado << std::endl;
 
     return 0;
 }
